@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="width_im_btn_arrow">50dp</dimen>
+    <dimen name="height_im_btn_arrow">40dp</dimen>
+    <dimen name="margin_im_btn_arrow">50dp</dimen>
+
+    <dimen name="days_layout_margin">15dp</dimen>
+
+    <dimen name="size_title">25sp</dimen>
+    <dimen name="size_day_text">15sp</dimen>
+
+    <dimen name="padding_cal_day">10dp</dimen>
+
+</resources>

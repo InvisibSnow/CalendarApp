@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="itemDays"
+            type="com.calendar.app.fragment.MonthFragmentVM" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/days_layout_margin"
+        android:layout_marginBottom="@dimen/days_layout_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DayTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="@{itemDays.getDayOfWeek(2)}"
+
+            tools:text="Mon" />
+
+        <TextView
+            style="@style/DayTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="@{itemDays.getDayOfWeek(3)}"
+
+            tools:text="Tue" />
+
+        <TextView
+            style="@style/DayTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="@{itemDays.getDayOfWeek(4)}"
+
+            tools:text="Wed" />
+
+        <TextView
+            style="@style/DayTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="@{itemDays.getDayOfWeek(5)}"
+
+            tools:text="Thu" />
+
+        <TextView
+            style="@style/DayTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="@{itemDays.getDayOfWeek(6)}"
+
+            tools:text="Fri" />
+
+        <TextView
+            style="@style/DayTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="@{itemDays.getDayOfWeek(7)}"
+
+            tools:text="Sat" />
+
+        <TextView
+            style="@style/DayTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="@{itemDays.getDayOfWeek(1)}"
+
+            tools:text="Sun" />
+
+    </LinearLayout>
+
+</layout>
